@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(192, 227, 140);
+}
+
+#title {
+    font-size: 2.25vw;
+    padding-top: 1vw;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+}
+
+#container-1 {
+    background-color: white;
+    height: 53vh;
+    width : 27.5vw;
+}
+
+#container-1-header {
+    font-size: 1.5vw;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+}
+
+button {
+    font-size: 1vw;
+    height: 7vh;
+    width: 10.5vw;
+    border: 0.2vw solid rgb(88, 184, 88);
+    background-color: rgb(88, 184, 88);
+    border-radius: 0.5vw;
+    transition: ease-in 250ms border;
+    transition: ease-in 250ms color;
+    font-family: 'Playfair Display', serif;
+}
+
+button:hover {
+    border: 0.1vw solid rgb(88, 184, 88);
+    color: rgb(88, 184, 88);
+    background: #fff;
+}
+
+#container-1-p {
+    font-size: 1vw;
+    font-family: 'Playfair Display', serif;
+}
